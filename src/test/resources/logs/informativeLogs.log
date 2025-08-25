@@ -1,7 +1,6 @@
-20:19:20.990 INFO  AUTOMATION - Suite iniciada: Default Suite
-20:19:22.602 INFO  AUTOMATION - Comenzando el test: testUrlIsTheSame
-20:19:22.622 INFO  AUTOMATION - Navegamos a la pagina: https://www.saucedemo.com/
-20:19:26.670 INFO  AUTOMATION - Obtenemos la pagina del driver
-20:19:26.681 INFO  AUTOMATION - Verificamos que la pagina sea igual a la url
-20:19:26.693 INFO  AUTOMATION - Test exitoso: testUrlIsTheSame
-20:19:26.858 INFO  AUTOMATION - Suite finalizada: Default Suite
+17:35:33.816 INFO  AUTOMATION - Suite iniciada: Default Suite
+17:35:35.397 INFO  AUTOMATION - Comenzando el test: testAlwaysFail
+17:35:35.422 INFO  AUTOMATION - Navegamos a la pagina: https://the-internet.herokuapp.com/
+17:35:39.286 INFO  AUTOMATION - Obteniendo la url actual
+17:35:39.309 INFO  AUTOMATION - Test fallido: testAlwaysFail
+17:35:39.646 INFO  AUTOMATION - Suite finalizada: Default Suite
