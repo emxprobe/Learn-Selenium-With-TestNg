@@ -1,0 +1,12 @@
+20:19:20.990 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:19:21.053 DEBUG AUTOMATION - Inicializando el driver
+20:19:22.481 DEBUG AUTOMATION - Maximizando la pantalla
+20:19:22.510 DEBUG AUTOMATION - Borrando las cookies
+20:19:22.520 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:19:22.602 INFO  AUTOMATION - Comenzando el test: testUrlIsTheSame
+20:19:22.622 INFO  AUTOMATION - Navegamos a la pagina: https://www.saucedemo.com/
+20:19:26.670 INFO  AUTOMATION - Obtenemos la pagina del driver
+20:19:26.681 INFO  AUTOMATION - Verificamos que la pagina sea igual a la url
+20:19:26.693 INFO  AUTOMATION - Test exitoso: testUrlIsTheSame
+20:19:26.695 DEBUG AUTOMATION - Matando el driver
+20:19:26.858 INFO  AUTOMATION - Suite finalizada: Default Suite
