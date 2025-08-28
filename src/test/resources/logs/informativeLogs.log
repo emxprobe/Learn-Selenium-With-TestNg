@@ -1,6 +1,10 @@
-17:35:33.816 INFO  AUTOMATION - Suite iniciada: Default Suite
-17:35:35.397 INFO  AUTOMATION - Comenzando el test: testAlwaysFail
-17:35:35.422 INFO  AUTOMATION - Navegamos a la pagina: https://the-internet.herokuapp.com/
-17:35:39.286 INFO  AUTOMATION - Obteniendo la url actual
-17:35:39.309 INFO  AUTOMATION - Test fallido: testAlwaysFail
-17:35:39.646 INFO  AUTOMATION - Suite finalizada: Default Suite
+19:58:36.086 INFO  AUTOMATION - Suite iniciada: Default Suite
+19:58:37.479 INFO  AUTOMATION - Comenzando el test: testValidLogin
+19:58:37.499 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
+19:58:44.584 INFO  AUTOMATION - Escribimos usuario bloqueado
+19:58:44.668 INFO  AUTOMATION - Escribimos contraña
+19:58:44.726 INFO  AUTOMATION - Hacemos click en el boton de login
+19:58:44.826 INFO  AUTOMATION - Esperamos 2 segundos
+19:58:46.855 INFO  AUTOMATION - Verificamos que el titulo de productos este visible
+19:58:46.883 INFO  AUTOMATION - Test exitoso: testValidLogin
+19:58:47.059 INFO  AUTOMATION - Suite finalizada: Default Suite
