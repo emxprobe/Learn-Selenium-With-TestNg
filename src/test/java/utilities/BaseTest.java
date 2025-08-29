@@ -5,6 +5,8 @@ import listeners.TestListeners;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.bidi.log.Log;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
@@ -23,7 +25,7 @@ public class BaseTest {
         softAssert = new SoftAssert();
 
         Logs.debug("Inicializando el driver");
-        driver = new ChromeDriver();
+        driver = new EdgeDriver();
 
         Logs.debug("Maximizando la pantalla");
         driver.manage().window().maximize();

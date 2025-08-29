@@ -1,18 +1,23 @@
-19:58:36.086 INFO  AUTOMATION - Suite iniciada: Default Suite
-19:58:36.089 DEBUG AUTOMATION - Borrando la evidencia anterior
-19:58:36.139 DEBUG AUTOMATION - Inicializando el driver
-19:58:37.364 DEBUG AUTOMATION - Maximizando la pantalla
-19:58:37.403 DEBUG AUTOMATION - Borrando las cookies
-19:58:37.414 DEBUG AUTOMATION - Asignando driver al webdriver provider
-19:58:37.479 INFO  AUTOMATION - Comenzando el test: testValidLogin
-19:58:37.499 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
-19:58:41.582 DEBUG AUTOMATION - Esperamos 3 segundos
-19:58:44.584 INFO  AUTOMATION - Escribimos usuario bloqueado
-19:58:44.668 INFO  AUTOMATION - Escribimos contraña
-19:58:44.726 INFO  AUTOMATION - Hacemos click en el boton de login
-19:58:44.826 INFO  AUTOMATION - Esperamos 2 segundos
-19:58:46.855 INFO  AUTOMATION - Verificamos que el titulo de productos este visible
-19:58:46.875 DEBUG AUTOMATION - Before test stop de allure
-19:58:46.883 INFO  AUTOMATION - Test exitoso: testValidLogin
-19:58:46.885 DEBUG AUTOMATION - Matando el driver
-19:58:47.059 INFO  AUTOMATION - Suite finalizada: Default Suite
+18:03:52.947 INFO  AUTOMATION - Suite iniciada: Default Suite
+18:03:52.950 DEBUG AUTOMATION - Borrando la evidencia anterior
+18:03:53.010 DEBUG AUTOMATION - Inicializando el driver
+18:03:54.288 DEBUG AUTOMATION - Maximizando la pantalla
+18:03:54.327 DEBUG AUTOMATION - Borrando las cookies
+18:03:54.337 DEBUG AUTOMATION - Asignando driver al webdriver provider
+18:03:54.458 INFO  AUTOMATION - Comenzando el test: testOrderByLowerPrice
+18:03:54.518 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
+18:03:58.283 DEBUG AUTOMATION - Esperamos 3 segundos
+18:04:01.300 INFO  AUTOMATION - Escribimos usuario 
+18:04:01.418 INFO  AUTOMATION - Escribimos contraña
+18:04:01.504 INFO  AUTOMATION - Hacemos click en el boton de login
+18:04:01.623 INFO  AUTOMATION - Esperamos 2 segundos
+18:04:03.632 DEBUG AUTOMATION - Obtenemos el select
+18:04:03.696 INFO  AUTOMATION - Seleccionamos ordenar por menor precio
+18:04:03.768 DEBUG AUTOMATION - Obtenemos la lista de precios
+18:04:03.782 INFO  AUTOMATION - Obtenemos el primer elemento
+18:04:03.782 INFO  AUTOMATION - Obtenemos el ultimo elemento
+18:04:03.783 INFO  AUTOMATION - Verificamos los precios
+18:04:03.812 DEBUG AUTOMATION - Before test stop de allure
+18:04:03.821 INFO  AUTOMATION - Test exitoso: testOrderByLowerPrice
+18:04:03.823 DEBUG AUTOMATION - Matando el driver
+18:04:04.036 INFO  AUTOMATION - Suite finalizada: Default Suite
