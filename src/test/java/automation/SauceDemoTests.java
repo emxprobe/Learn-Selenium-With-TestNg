@@ -2,6 +2,7 @@ package automation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.bidi.log.Log;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -123,15 +124,92 @@ public class SauceDemoTests extends BaseTest {
         Logs.debug("Obtenemos la lista de precios");
         final var priceList = driver.findElements(By.className("inventory_item_price"));
 
-        Logs.info("Obtenemos el primer elemento");
-        final var firstPrice = priceList.getFirst();
+        Logs.debug("Obtenemos el primer precio");
+        final var firstPrice = Double.parseDouble(
+                priceList.getFirst().getText().replace("$", ""));
 
-        Logs.info("Obtenemos el ultimo elemento");
-        final var lastPrice = priceList.getLast();
+        Logs.debug("Obtenemos el ultimo precio");
+        final var lastPrice = Double.parseDouble(
+                priceList.getLast().getText().replace("$", ""));
 
         Logs.info("Verificamos los precios");
-        softAssert.assertEquals(firstPrice.getText(), "$7.99");
-        softAssert.assertEquals(lastPrice.getText(), "$49.99");
+        softAssert.assertEquals(firstPrice, 7.99);
+        softAssert.assertEquals(lastPrice, 49.99);
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void testFacebookLink() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Obtenemos el label de facebook");
+        final var facebookLabel = driver.findElement(By.cssSelector("a[data-test='social-facebook']"));
+
+        Logs.info("Verificando que el hipervinculo este correcto");
+        softAssert.assertEquals(facebookLabel.getAttribute("href"), "https://www.facebook.com/saucelabs");
+        softAssert.assertTrue(facebookLabel.isDisplayed());
+        softAssert.assertTrue(facebookLabel.isEnabled());
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void testLinkedinLink() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Obtenemos el label de linkedin");
+        final var linkedinLabel = driver.findElement(By.cssSelector("a[data-test='social-linkedin']"));
+
+        Logs.info("Verificamos que el hiperviculo esta correcto");
+        softAssert.assertEquals(linkedinLabel.getAttribute("href"), "https://www.linkedin.com/company/sauce-labs/");
+        softAssert.assertTrue(linkedinLabel.isDisplayed());
+        softAssert.assertTrue(linkedinLabel.isEnabled());
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void testVerifyAboutButton() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Abriendo el burguer menu");
+        driver.findElement(By.id("react-burger-menu-btn")).click();
+
+        Logs.info("Esperamos que abra el menu");
+        sleep(2000);
+
+        final var aboutLink = driver.findElement(By.id("about_sidebar_link"));
+
+        Logs.info("Verificanod el link de about");
+        softAssert.assertTrue(aboutLink.isDisplayed());
+        softAssert.assertTrue(aboutLink.isEnabled());
+        softAssert.assertEquals(aboutLink.getAttribute("href"), "https://saucelabs.com/");
+        softAssert.assertAll();
+    }
+
+    @Test
+    public void testVerifyLogout() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Abriendo el burguer menu");
+        driver.findElement(By.id("react-burger-menu-btn")).click();
+
+        Logs.info("Esperamos que abra el menu");
+        sleep(2000);
+
+        Logs.info("Haciendo click en logout");
+        driver.findElement(By.id("logout_sidebar_link")).click();
+
+        Logs.info("Esperamos 2 segundos");
+        sleep(2000);
+
+        final var loginButton = driver.findElement(By.id("login-button"));
+
+        Logs.info("Verificamos que estamos en la pagina de login");
+        softAssert.assertTrue(loginButton.isDisplayed());
+        softAssert.assertTrue(loginButton.isEnabled());
         softAssert.assertAll();
     }
 }

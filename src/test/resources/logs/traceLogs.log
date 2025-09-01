@@ -1,23 +1,22 @@
-18:03:52.947 INFO  AUTOMATION - Suite iniciada: Default Suite
-18:03:52.950 DEBUG AUTOMATION - Borrando la evidencia anterior
-18:03:53.010 DEBUG AUTOMATION - Inicializando el driver
-18:03:54.288 DEBUG AUTOMATION - Maximizando la pantalla
-18:03:54.327 DEBUG AUTOMATION - Borrando las cookies
-18:03:54.337 DEBUG AUTOMATION - Asignando driver al webdriver provider
-18:03:54.458 INFO  AUTOMATION - Comenzando el test: testOrderByLowerPrice
-18:03:54.518 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
-18:03:58.283 DEBUG AUTOMATION - Esperamos 3 segundos
-18:04:01.300 INFO  AUTOMATION - Escribimos usuario 
-18:04:01.418 INFO  AUTOMATION - Escribimos contraña
-18:04:01.504 INFO  AUTOMATION - Hacemos click en el boton de login
-18:04:01.623 INFO  AUTOMATION - Esperamos 2 segundos
-18:04:03.632 DEBUG AUTOMATION - Obtenemos el select
-18:04:03.696 INFO  AUTOMATION - Seleccionamos ordenar por menor precio
-18:04:03.768 DEBUG AUTOMATION - Obtenemos la lista de precios
-18:04:03.782 INFO  AUTOMATION - Obtenemos el primer elemento
-18:04:03.782 INFO  AUTOMATION - Obtenemos el ultimo elemento
-18:04:03.783 INFO  AUTOMATION - Verificamos los precios
-18:04:03.812 DEBUG AUTOMATION - Before test stop de allure
-18:04:03.821 INFO  AUTOMATION - Test exitoso: testOrderByLowerPrice
-18:04:03.823 DEBUG AUTOMATION - Matando el driver
-18:04:04.036 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:26:15.813 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:26:15.815 DEBUG AUTOMATION - Borrando la evidencia anterior
+20:26:15.871 DEBUG AUTOMATION - Inicializando el driver
+20:26:17.157 DEBUG AUTOMATION - Maximizando la pantalla
+20:26:17.216 DEBUG AUTOMATION - Borrando las cookies
+20:26:17.228 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:26:17.305 INFO  AUTOMATION - Comenzando el test: testVerifyLogout
+20:26:17.340 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
+20:26:17.944 DEBUG AUTOMATION - Esperamos 3 segundos
+20:26:20.944 INFO  AUTOMATION - Escribimos usuario 
+20:26:21.096 INFO  AUTOMATION - Escribimos contraña
+20:26:21.161 INFO  AUTOMATION - Hacemos click en el boton de login
+20:26:21.298 INFO  AUTOMATION - Esperamos 2 segundos
+20:26:23.300 INFO  AUTOMATION - Abriendo el burguer menu
+20:26:23.389 INFO  AUTOMATION - Esperamos que abra el menu
+20:26:25.390 INFO  AUTOMATION - Haciendo click en logout
+20:26:25.484 INFO  AUTOMATION - Esperamos 2 segundos
+20:26:27.512 INFO  AUTOMATION - Verificamos que estamos en la pagina de login
+20:26:27.552 DEBUG AUTOMATION - Before test stop de allure
+20:26:27.559 INFO  AUTOMATION - Test exitoso: testVerifyLogout
+20:26:27.561 DEBUG AUTOMATION - Matando el driver
+20:26:27.786 INFO  AUTOMATION - Suite finalizada: Default Suite
