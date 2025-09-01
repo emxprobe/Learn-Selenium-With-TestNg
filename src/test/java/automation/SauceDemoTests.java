@@ -41,8 +41,8 @@ public class SauceDemoTests extends BaseTest {
         Logs.info("Navegamos a la pagina de Saucedemo");
         driver.get("https://www.saucedemo.com/");
 
-        Logs.debug("Esperamos 3 segundos");
-        sleep(3000);
+        //Logs.debug("Esperamos 3 segundos");
+        //sleep(3000);
 
         Logs.info("Escribimos usuario ");
         driver.findElement(By.id("user-name")).sendKeys(username);
@@ -53,8 +53,8 @@ public class SauceDemoTests extends BaseTest {
         Logs.info("Hacemos click en el boton de login");
         driver.findElement(By.id("login-button")).click();
 
-        Logs.info("Esperamos 2 segundos");
-        sleep(2000);
+        //Logs.info("Esperamos 2 segundos");
+        //sleep(2000);
     }
 
     @Test
@@ -67,8 +67,8 @@ public class SauceDemoTests extends BaseTest {
         Logs.info("Haciendo click en el primer elemento");
         imageList.get(0).click();
 
-        Logs.info("Esperamos 1 segundo");
-        sleep(1000);
+        //Logs.info("Esperamos 1 segundo");
+        //sleep(1000);
 
         Logs.info("Verificando el detalle del producto");
         softAssert.assertTrue(driver.findElement(By.cssSelector(".inventory_details_name")).isDisplayed());
@@ -90,8 +90,8 @@ public class SauceDemoTests extends BaseTest {
         Logs.info("Elegimos el orden de Z a A");
         select.selectByValue("za");
 
-        Logs.info("Esperamos 1 segundo");
-        sleep(1000);
+        //Logs.info("Esperamos 1 segundo");
+        //sleep(1000);
 
         Logs.debug("Obtenemos la lista de elementos");
         final var titleList = driver.findElements(By.cssSelector("div[data-test='inventory-item-name']"));

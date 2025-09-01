@@ -1,22 +1,17 @@
-20:26:15.813 INFO  AUTOMATION - Suite iniciada: Default Suite
-20:26:15.815 DEBUG AUTOMATION - Borrando la evidencia anterior
-20:26:15.871 DEBUG AUTOMATION - Inicializando el driver
-20:26:17.157 DEBUG AUTOMATION - Maximizando la pantalla
-20:26:17.216 DEBUG AUTOMATION - Borrando las cookies
-20:26:17.228 DEBUG AUTOMATION - Asignando driver al webdriver provider
-20:26:17.305 INFO  AUTOMATION - Comenzando el test: testVerifyLogout
-20:26:17.340 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
-20:26:17.944 DEBUG AUTOMATION - Esperamos 3 segundos
-20:26:20.944 INFO  AUTOMATION - Escribimos usuario 
-20:26:21.096 INFO  AUTOMATION - Escribimos contraña
-20:26:21.161 INFO  AUTOMATION - Hacemos click en el boton de login
-20:26:21.298 INFO  AUTOMATION - Esperamos 2 segundos
-20:26:23.300 INFO  AUTOMATION - Abriendo el burguer menu
-20:26:23.389 INFO  AUTOMATION - Esperamos que abra el menu
-20:26:25.390 INFO  AUTOMATION - Haciendo click en logout
-20:26:25.484 INFO  AUTOMATION - Esperamos 2 segundos
-20:26:27.512 INFO  AUTOMATION - Verificamos que estamos en la pagina de login
-20:26:27.552 DEBUG AUTOMATION - Before test stop de allure
-20:26:27.559 INFO  AUTOMATION - Test exitoso: testVerifyLogout
-20:26:27.561 DEBUG AUTOMATION - Matando el driver
-20:26:27.786 INFO  AUTOMATION - Suite finalizada: Default Suite
+16:57:31.476 INFO  AUTOMATION - Suite iniciada: Default Suite
+16:57:31.479 DEBUG AUTOMATION - Borrando la evidencia anterior
+16:57:31.533 DEBUG AUTOMATION - Inicializando el driver
+16:57:32.778 DEBUG AUTOMATION - Maximizando la pantalla
+16:57:32.817 DEBUG AUTOMATION - Borrando las cookies
+16:57:32.824 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
+16:57:32.830 DEBUG AUTOMATION - Asignando driver al webdriver provider
+16:57:32.907 INFO  AUTOMATION - Comenzando el test: testFrames
+16:57:32.939 INFO  AUTOMATION - Navegamos a la pagina
+16:57:34.110 DEBUG AUTOMATION - Nos posicionamos en el frame
+16:57:34.161 INFO  AUTOMATION - Verificando el titulo del iframe
+16:57:34.205 DEBUG AUTOMATION - Regresando a la pagina original
+16:57:34.208 INFO  AUTOMATION - Verificando el titulo de la pagina
+16:57:34.228 DEBUG AUTOMATION - Before test stop de allure
+16:57:34.236 INFO  AUTOMATION - Test exitoso: testFrames
+16:57:34.239 DEBUG AUTOMATION - Matando el driver
+16:57:34.389 INFO  AUTOMATION - Suite finalizada: Default Suite
