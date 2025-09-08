@@ -1,17 +1,17 @@
-16:57:31.476 INFO  AUTOMATION - Suite iniciada: Default Suite
-16:57:31.479 DEBUG AUTOMATION - Borrando la evidencia anterior
-16:57:31.533 DEBUG AUTOMATION - Inicializando el driver
-16:57:32.778 DEBUG AUTOMATION - Maximizando la pantalla
-16:57:32.817 DEBUG AUTOMATION - Borrando las cookies
-16:57:32.824 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
-16:57:32.830 DEBUG AUTOMATION - Asignando driver al webdriver provider
-16:57:32.907 INFO  AUTOMATION - Comenzando el test: testFrames
-16:57:32.939 INFO  AUTOMATION - Navegamos a la pagina
-16:57:34.110 DEBUG AUTOMATION - Nos posicionamos en el frame
-16:57:34.161 INFO  AUTOMATION - Verificando el titulo del iframe
-16:57:34.205 DEBUG AUTOMATION - Regresando a la pagina original
-16:57:34.208 INFO  AUTOMATION - Verificando el titulo de la pagina
-16:57:34.228 DEBUG AUTOMATION - Before test stop de allure
-16:57:34.236 INFO  AUTOMATION - Test exitoso: testFrames
-16:57:34.239 DEBUG AUTOMATION - Matando el driver
-16:57:34.389 INFO  AUTOMATION - Suite finalizada: Default Suite
+14:58:52.850 INFO  AUTOMATION - Suite iniciada: Default Suite
+14:58:52.853 DEBUG AUTOMATION - Borrando la evidencia anterior
+14:58:52.912 DEBUG AUTOMATION - Inicializando el driver
+14:58:54.221 DEBUG AUTOMATION - Maximizando la pantalla
+14:58:54.268 DEBUG AUTOMATION - Borrando las cookies
+14:58:54.279 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
+14:58:54.283 DEBUG AUTOMATION - Asignando driver al webdriver provider
+14:58:54.365 INFO  AUTOMATION - Comenzando el test: testScroll
+14:58:54.393 INFO  AUTOMATION - Navegamos a la pagina
+14:58:54.949 INFO  AUTOMATION - Haciendo scroll hacia el iframe
+14:58:56.253 DEBUG AUTOMATION - Cambiamos el contexto 
+14:58:56.287 INFO  AUTOMATION - Haciendo click en el checkbox
+14:58:56.389 INFO  AUTOMATION - Verificando que el checkbox este checked
+14:58:56.404 DEBUG AUTOMATION - Before test stop de allure
+14:58:56.432 INFO  AUTOMATION - Test exitoso: testScroll
+14:58:56.438 DEBUG AUTOMATION - Matando el driver
+14:58:56.651 INFO  AUTOMATION - Suite finalizada: Default Suite

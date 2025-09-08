@@ -1,7 +1,8 @@
-16:57:31.476 INFO  AUTOMATION - Suite iniciada: Default Suite
-16:57:32.907 INFO  AUTOMATION - Comenzando el test: testFrames
-16:57:32.939 INFO  AUTOMATION - Navegamos a la pagina
-16:57:34.161 INFO  AUTOMATION - Verificando el titulo del iframe
-16:57:34.208 INFO  AUTOMATION - Verificando el titulo de la pagina
-16:57:34.236 INFO  AUTOMATION - Test exitoso: testFrames
-16:57:34.389 INFO  AUTOMATION - Suite finalizada: Default Suite
+14:58:52.850 INFO  AUTOMATION - Suite iniciada: Default Suite
+14:58:54.365 INFO  AUTOMATION - Comenzando el test: testScroll
+14:58:54.393 INFO  AUTOMATION - Navegamos a la pagina
+14:58:54.949 INFO  AUTOMATION - Haciendo scroll hacia el iframe
+14:58:56.287 INFO  AUTOMATION - Haciendo click en el checkbox
+14:58:56.389 INFO  AUTOMATION - Verificando que el checkbox este checked
+14:58:56.432 INFO  AUTOMATION - Test exitoso: testScroll
+14:58:56.651 INFO  AUTOMATION - Suite finalizada: Default Suite
