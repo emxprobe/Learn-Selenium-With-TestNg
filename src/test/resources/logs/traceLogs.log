@@ -1,17 +1,17 @@
-14:58:52.850 INFO  AUTOMATION - Suite iniciada: Default Suite
-14:58:52.853 DEBUG AUTOMATION - Borrando la evidencia anterior
-14:58:52.912 DEBUG AUTOMATION - Inicializando el driver
-14:58:54.221 DEBUG AUTOMATION - Maximizando la pantalla
-14:58:54.268 DEBUG AUTOMATION - Borrando las cookies
-14:58:54.279 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
-14:58:54.283 DEBUG AUTOMATION - Asignando driver al webdriver provider
-14:58:54.365 INFO  AUTOMATION - Comenzando el test: testScroll
-14:58:54.393 INFO  AUTOMATION - Navegamos a la pagina
-14:58:54.949 INFO  AUTOMATION - Haciendo scroll hacia el iframe
-14:58:56.253 DEBUG AUTOMATION - Cambiamos el contexto 
-14:58:56.287 INFO  AUTOMATION - Haciendo click en el checkbox
-14:58:56.389 INFO  AUTOMATION - Verificando que el checkbox este checked
-14:58:56.404 DEBUG AUTOMATION - Before test stop de allure
-14:58:56.432 INFO  AUTOMATION - Test exitoso: testScroll
-14:58:56.438 DEBUG AUTOMATION - Matando el driver
-14:58:56.651 INFO  AUTOMATION - Suite finalizada: Default Suite
+17:43:50.583 INFO  AUTOMATION - Suite iniciada: Default Suite
+17:43:50.587 DEBUG AUTOMATION - Borrando la evidencia anterior
+17:43:50.673 DEBUG AUTOMATION - Inicializando el driver
+17:43:52.550 DEBUG AUTOMATION - Maximizando la pantalla
+17:43:52.625 DEBUG AUTOMATION - Borrando las cookies
+17:43:52.642 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
+17:43:52.652 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:43:52.797 INFO  AUTOMATION - Comenzando el test: testImageUpload
+17:43:52.849 INFO  AUTOMATION - Navegamos a la pagina
+17:43:53.565 INFO  AUTOMATION - Subimos la imagen al sitio
+17:43:53.639 INFO  AUTOMATION - Haciendo click en el radio button
+17:43:53.738 INFO  AUTOMATION - Haciendo click en el buton de upload
+17:43:54.465 INFO  AUTOMATION - Verificando que se subio la imagen
+17:43:54.501 DEBUG AUTOMATION - Before test stop de allure
+17:43:54.509 INFO  AUTOMATION - Test exitoso: testImageUpload
+17:43:54.512 DEBUG AUTOMATION - Matando el driver
+17:43:54.702 INFO  AUTOMATION - Suite finalizada: Default Suite

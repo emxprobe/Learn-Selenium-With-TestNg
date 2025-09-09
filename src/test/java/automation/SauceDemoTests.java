@@ -212,4 +212,37 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertTrue(loginButton.isEnabled());
         softAssert.assertAll();
     }
+
+    @Test
+    public void testDeleteCookie() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Obteniendo el set de cookies");
+        var cookieSet = driver.manage().getCookies();
+
+        Logs.info("Verificando que solo hay 1 cookie");
+        Assert.assertEquals(cookieSet.size(), 1);
+
+        Logs.debug("Borramos todas las cookies");
+        driver.manage().deleteAllCookies();
+
+        Logs.info("Obteniendo el set de las cookies nuevamente");
+        cookieSet = driver.manage().getCookies();
+
+        Logs.info("Verificando que su tamaño sea 0");
+        Assert.assertEquals(cookieSet.size(), 0);
+    }
+
+    @Test
+    public void testGetCredentialCookie() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        Logs.info("Obteniendo la info de la cookie de login");
+        final var cookieLogin = driver.manage().getCookieNamed("session-username");
+
+        Logs.info("Verificando que su valor sea standard_user");
+        Assert.assertEquals(cookieLogin.getValue(), "standard_user");
+    }
 }
