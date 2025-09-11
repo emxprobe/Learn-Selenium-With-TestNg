@@ -11,7 +11,7 @@ import utilities.Logs;
 
 public class SauceDemoTests extends BaseTest {
 
-    @Test
+    @Test(groups = regression)
     public void testLockedUserMessage() {
 
         fillLogin("locked_out_user", "secret_sauce");
@@ -25,7 +25,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testValidLogin() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -57,7 +57,7 @@ public class SauceDemoTests extends BaseTest {
         //sleep(2000);
     }
 
-    @Test
+    @Test(groups = regression)
     public void testVerifyProduct() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -79,7 +79,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testZToAOrderElements() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -108,7 +108,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testOrderByLowerPrice() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -138,7 +138,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testFacebookLink() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -153,7 +153,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testLinkedinLink() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -168,7 +168,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testVerifyAboutButton() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -188,7 +188,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testVerifyLogout() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -213,7 +213,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test
+    @Test(groups = regression)
     public void testDeleteCookie() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -234,7 +234,7 @@ public class SauceDemoTests extends BaseTest {
         Assert.assertEquals(cookieSet.size(), 0);
     }
 
-    @Test
+    @Test(groups = regression)
     public void testGetCredentialCookie() {
 
         fillLogin("standard_user", "secret_sauce");

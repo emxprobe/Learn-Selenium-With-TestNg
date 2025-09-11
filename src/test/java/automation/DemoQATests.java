@@ -13,7 +13,7 @@ import utilities.Logs;
 
 public class DemoQATests extends BaseTest {
 
-    @Test
+    @Test(groups = regression)
     public void testWriteShiftName() {
 
         Logs.info("Navegamos a la pagina");
@@ -41,7 +41,7 @@ public class DemoQATests extends BaseTest {
 
     }
 
-    @Test
+    @Test(groups = regression)
     public void testWriteAddress() {
 
         Logs.info("Navegamos a la pagina");
@@ -81,7 +81,7 @@ public class DemoQATests extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = regression)
     public void testDropDragMe() {
 
         Logs.info("Navegamos a la pagina");
@@ -99,7 +99,7 @@ public class DemoQATests extends BaseTest {
         Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Dropped!']")).isDisplayed());
     }
 
-    @Test
+    @Test(groups = regression)
     public void testHoverLabel() {
 
         Logs.info("Navegamos a la pagina");

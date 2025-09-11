@@ -8,7 +8,7 @@ import utilities.Logs;
 
 public class TutorialsPointTests extends BaseTest {
 
-    @Test
+    @Test(groups = regression)
     public void testTab() {
 
         Logs.info("Navegamos a la pagina");
@@ -53,7 +53,7 @@ public class TutorialsPointTests extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = regression)
     public void testNewWindow() {
 
         Logs.info("Navegamos a la pagina");
@@ -98,7 +98,7 @@ public class TutorialsPointTests extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = regression)
     public void testFrames() {
 
         Logs.info("Navegamos a la pagina");

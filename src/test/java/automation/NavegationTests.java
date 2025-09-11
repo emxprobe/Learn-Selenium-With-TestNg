@@ -61,7 +61,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrls, "helloWorld");
     }
 
-    @Test
+    @Test(groups = regression)
     public void testWaitSauceDemo() {
 
         final var sauceDemoUrl = "https://www.saucedemo.com/";
@@ -78,7 +78,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrl, sauceDemoUrl);
     }
 
-    @Test
+    @Test(groups = regression)
     public void testNavigation() {
 
         final var herokuUrl = "https://the-internet.herokuapp.com/";
