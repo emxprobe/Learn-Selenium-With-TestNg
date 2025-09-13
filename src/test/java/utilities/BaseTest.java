@@ -27,7 +27,7 @@ public class BaseTest {
         softAssert = new SoftAssert();
 
         Logs.debug("Inicializando el driver");
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
 
         Logs.debug("Maximizando la pantalla");
         driver.manage().window().maximize();
