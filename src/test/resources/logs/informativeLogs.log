@@ -1,9 +1,9 @@
-17:43:50.583 INFO  AUTOMATION - Suite iniciada: Default Suite
-17:43:52.797 INFO  AUTOMATION - Comenzando el test: testImageUpload
-17:43:52.849 INFO  AUTOMATION - Navegamos a la pagina
-17:43:53.565 INFO  AUTOMATION - Subimos la imagen al sitio
-17:43:53.639 INFO  AUTOMATION - Haciendo click en el radio button
-17:43:53.738 INFO  AUTOMATION - Haciendo click en el buton de upload
-17:43:54.465 INFO  AUTOMATION - Verificando que se subio la imagen
-17:43:54.509 INFO  AUTOMATION - Test exitoso: testImageUpload
-17:43:54.702 INFO  AUTOMATION - Suite finalizada: Default Suite
+19:18:08.816 INFO  AUTOMATION - Suite iniciada: Default Suite
+19:18:13.098 INFO  AUTOMATION - Comenzando el test: testRelativeLocator
+19:18:13.135 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
+19:18:16.398 INFO  AUTOMATION - Escribimos usuario 
+19:18:16.572 INFO  AUTOMATION - Escribimos contraña
+19:18:16.637 INFO  AUTOMATION - Hacemos click en el boton de login
+19:18:16.818 INFO  AUTOMATION - Verificamos que el precio sea correcto
+19:18:16.831 INFO  AUTOMATION - Test exitoso: testRelativeLocator
+19:18:17.103 INFO  AUTOMATION - Suite finalizada: Default Suite

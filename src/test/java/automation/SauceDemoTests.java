@@ -3,6 +3,7 @@ package automation;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.bidi.log.Log;
+import org.openqa.selenium.support.locators.RelativeLocator;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -245,4 +246,23 @@ public class SauceDemoTests extends BaseTest {
         Logs.info("Verificando que su valor sea standard_user");
         Assert.assertEquals(cookieLogin.getValue(), "standard_user");
     }
+
+    @Test
+    public void testRelativeLocator() {
+
+        fillLogin("standard_user", "secret_sauce");
+
+        final var locator = (By) RelativeLocator
+                .with(By.className("inventory_item_price"))
+                .below(By.xpath("//div[text()='Sauce Labs Bolt T-Shirt']"));
+
+        final var price = Double.parseDouble(
+
+                driver.findElement(locator).getText().replace("$", "")
+        );
+
+        Logs.info("Verificamos que el precio sea correcto");
+        Assert.assertEquals(price, 15.99);
+    }
+
 }
