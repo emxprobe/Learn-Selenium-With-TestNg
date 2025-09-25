@@ -1,9 +1,10 @@
-20:18:11.724 INFO  AUTOMATION - Suite iniciada: Default Suite
-20:18:14.739 INFO  AUTOMATION - Comenzando el test: testAlertPrompt
-20:18:14.783 INFO  AUTOMATION - Navegamos a la pagina
-20:18:37.569 INFO  AUTOMATION - Esperando que cargue la pagina
-20:18:37.605 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el alert
-20:18:38.086 INFO  AUTOMATION - Escribiendo el nombre aleatorio en el prompt: $s
-20:18:38.094 INFO  AUTOMATION - Presionando accept en el prompt
-20:18:38.289 INFO  AUTOMATION - Test exitoso: testAlertPrompt
-20:18:38.602 INFO  AUTOMATION - Suite finalizada: Default Suite
+19:51:20.235 INFO  AUTOMATION - Suite iniciada: Default Suite
+19:51:23.395 INFO  AUTOMATION - Navegando a la url
+19:51:26.533 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+19:51:26.588 INFO  AUTOMATION - Comenzando el test: testLockedUser
+19:51:26.617 INFO  AUTOMATION - Escribiendo el username
+19:51:26.754 INFO  AUTOMATION - Escribiendo el password
+19:51:26.821 INFO  AUTOMATION - Haciendo click en el boton de login
+19:51:26.910 INFO  AUTOMATION - Verificando el mensaje de error
+19:51:26.965 INFO  AUTOMATION - Test exitoso: testLockedUser
+19:51:27.171 INFO  AUTOMATION - Suite finalizada: Default Suite
