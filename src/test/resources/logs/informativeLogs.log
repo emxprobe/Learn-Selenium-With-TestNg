@@ -1,9 +1,9 @@
-19:18:08.816 INFO  AUTOMATION - Suite iniciada: Default Suite
-19:18:13.098 INFO  AUTOMATION - Comenzando el test: testRelativeLocator
-19:18:13.135 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
-19:18:16.398 INFO  AUTOMATION - Escribimos usuario 
-19:18:16.572 INFO  AUTOMATION - Escribimos contraña
-19:18:16.637 INFO  AUTOMATION - Hacemos click en el boton de login
-19:18:16.818 INFO  AUTOMATION - Verificamos que el precio sea correcto
-19:18:16.831 INFO  AUTOMATION - Test exitoso: testRelativeLocator
-19:18:17.103 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:18:11.724 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:18:14.739 INFO  AUTOMATION - Comenzando el test: testAlertPrompt
+20:18:14.783 INFO  AUTOMATION - Navegamos a la pagina
+20:18:37.569 INFO  AUTOMATION - Esperando que cargue la pagina
+20:18:37.605 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el alert
+20:18:38.086 INFO  AUTOMATION - Escribiendo el nombre aleatorio en el prompt: $s
+20:18:38.094 INFO  AUTOMATION - Presionando accept en el prompt
+20:18:38.289 INFO  AUTOMATION - Test exitoso: testAlertPrompt
+20:18:38.602 INFO  AUTOMATION - Suite finalizada: Default Suite

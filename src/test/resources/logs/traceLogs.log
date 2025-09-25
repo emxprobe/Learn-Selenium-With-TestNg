@@ -1,17 +1,17 @@
-19:18:08.816 INFO  AUTOMATION - Suite iniciada: Default Suite
-19:18:08.821 DEBUG AUTOMATION - Borrando la evidencia anterior
-19:18:08.930 DEBUG AUTOMATION - Inicializando el driver
-19:18:12.875 DEBUG AUTOMATION - Maximizando la pantalla
-19:18:12.946 DEBUG AUTOMATION - Borrando las cookies
-19:18:12.959 DEBUG AUTOMATION - Seteando implicit wait de 5 minutos
-19:18:12.964 DEBUG AUTOMATION - Asignando driver al webdriver provider
-19:18:13.098 INFO  AUTOMATION - Comenzando el test: testRelativeLocator
-19:18:13.135 INFO  AUTOMATION - Navegamos a la pagina de Saucedemo
-19:18:16.398 INFO  AUTOMATION - Escribimos usuario 
-19:18:16.572 INFO  AUTOMATION - Escribimos contraña
-19:18:16.637 INFO  AUTOMATION - Hacemos click en el boton de login
-19:18:16.818 INFO  AUTOMATION - Verificamos que el precio sea correcto
-19:18:16.822 DEBUG AUTOMATION - Before test stop de allure
-19:18:16.831 INFO  AUTOMATION - Test exitoso: testRelativeLocator
-19:18:16.834 DEBUG AUTOMATION - Matando el driver
-19:18:17.103 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:18:11.724 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:18:11.727 DEBUG AUTOMATION - Borrando la evidencia anterior
+20:18:11.795 DEBUG AUTOMATION - Inicializando el driver
+20:18:14.562 DEBUG AUTOMATION - Maximizando la pantalla
+20:18:14.607 DEBUG AUTOMATION - Borrando las cookies
+20:18:14.619 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:18:14.739 INFO  AUTOMATION - Comenzando el test: testAlertPrompt
+20:18:14.783 INFO  AUTOMATION - Navegamos a la pagina
+20:18:37.569 INFO  AUTOMATION - Esperando que cargue la pagina
+20:18:37.605 INFO  AUTOMATION - Haciendo click en el boton para que aparezca el alert
+20:18:37.742 DEBUG AUTOMATION - Obteniendo el alert de prompt box
+20:18:38.086 INFO  AUTOMATION - Escribiendo el nombre aleatorio en el prompt: $s
+20:18:38.094 INFO  AUTOMATION - Presionando accept en el prompt
+20:18:38.273 DEBUG AUTOMATION - Before test stop de allure
+20:18:38.289 INFO  AUTOMATION - Test exitoso: testAlertPrompt
+20:18:38.294 DEBUG AUTOMATION - Matando el driver
+20:18:38.602 INFO  AUTOMATION - Suite finalizada: Default Suite
