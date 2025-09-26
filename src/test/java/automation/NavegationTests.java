@@ -9,7 +9,7 @@ import utilities.Logs;
 
 public class NavegationTests extends BaseTest {
 
-    @Test(groups = {regression, smoke})
+    @Test(groups = {regression})
     public void testUrlIsTheSame() {
 
         final var url = "https://www.saucedemo.com/";
@@ -24,7 +24,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrl, url);
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testToHerokuThenGithubThenHeroku() {
 
         final String urlHeroku = "https://the-internet.herokuapp.com/";
@@ -46,7 +46,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrl, urlHeroku);
     }
 
-    @Test(groups = {regression, smoke})
+    @Test(groups = {regression})
     public void testAlwaysFail() {
 
         final String  urlHeroku = "https://the-internet.herokuapp.com/";
@@ -61,7 +61,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrls, "helloWorld");
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testWaitSauceDemo() {
 
         final var sauceDemoUrl = "https://www.saucedemo.com/";
@@ -78,7 +78,7 @@ public class NavegationTests extends BaseTest {
         Assert.assertEquals(currentUrl, sauceDemoUrl);
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testNavigation() {
 
         final var herokuUrl = "https://the-internet.herokuapp.com/";

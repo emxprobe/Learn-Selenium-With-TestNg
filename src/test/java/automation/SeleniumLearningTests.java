@@ -8,7 +8,7 @@ import utilities.Logs;
 
 public class SeleniumLearningTests extends BaseTest {
 
-    @Test
+    @Test(groups = {regression})
     public void testFindDivParentByXpath() {
 
         Logs.info("Navegamos a la pagina");
@@ -23,7 +23,7 @@ public class SeleniumLearningTests extends BaseTest {
         Assert.assertTrue(divFather.isEnabled());
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testFindH1SonByCSS() {
 
         Logs.info("Navegamos a la pagina");

@@ -10,7 +10,7 @@ import java.io.File;
 
 public class TestPagesTests extends BaseTest {
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testImageUpload() {
 
         Logs.info("Navegamos a la pagina");

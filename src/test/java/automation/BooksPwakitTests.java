@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class BooksPwakitTests extends BaseTest {
 
-    @Test
+    @Test(groups = {regression})
     public void testShadowDom() {
 
         Logs.info("Navegamos a la pagina");
@@ -29,7 +29,7 @@ public class BooksPwakitTests extends BaseTest {
         Assert.assertEquals(footer.getText(), "Made with <3 by the Polymer team.");
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testShadowDom2() {
 
         Logs.info("Navegamos a la pagina");

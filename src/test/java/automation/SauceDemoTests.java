@@ -17,7 +17,7 @@ import java.time.Duration;
 
 public class SauceDemoTests extends BaseTest {
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testLockedUserMessage() {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -36,7 +36,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testValidLogin() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -75,7 +75,7 @@ public class SauceDemoTests extends BaseTest {
         }
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testVerifyProduct() {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -99,7 +99,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testZToAOrderElements() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -128,7 +128,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testOrderByLowerPrice() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -158,7 +158,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testFacebookLink() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -188,7 +188,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testVerifyAboutButton() {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -208,7 +208,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testVerifyLogout() {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(5));
@@ -234,7 +234,7 @@ public class SauceDemoTests extends BaseTest {
         softAssert.assertAll();
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testDeleteCookie() {
 
         fillLogin("standard_user", "secret_sauce");
@@ -285,7 +285,7 @@ public class SauceDemoTests extends BaseTest {
         Assert.assertEquals(price, 15.99);
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testRemoveCartItem() {
 
         fillLogin("standard_user", "secret_sauce");

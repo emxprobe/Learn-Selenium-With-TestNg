@@ -18,7 +18,7 @@ import java.time.Duration;
 
 public class DemoQATests extends BaseTest {
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testWriteShiftName() {
 
         Logs.info("Navegamos a la pagina");
@@ -46,7 +46,7 @@ public class DemoQATests extends BaseTest {
 
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testWriteAddress() {
 
         Logs.info("Navegamos a la pagina");
@@ -86,7 +86,7 @@ public class DemoQATests extends BaseTest {
         );
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testDropDragMe() {
 
         Logs.info("Navegamos a la pagina");
@@ -104,7 +104,7 @@ public class DemoQATests extends BaseTest {
         Assert.assertTrue(driver.findElement(By.xpath("//p[text()='Dropped!']")).isDisplayed());
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testHoverLabel() {
 
         Logs.info("Navegamos a la pagina");
@@ -124,7 +124,7 @@ public class DemoQATests extends BaseTest {
         );
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testAlertAccept() {
 
         Logs.info("Navegamos a la pagina");
@@ -149,7 +149,7 @@ public class DemoQATests extends BaseTest {
         alert.accept();
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testDismissAlert() {
 
         Logs.info("Navegamos a la pagina");
@@ -174,7 +174,7 @@ public class DemoQATests extends BaseTest {
         Assert.assertTrue(driver.findElement(By.id("confirmResult")).isDisplayed());
     }
 
-    @Test
+    @Test(groups = {regression})
     public void testAlertPrompt() {
 
         Logs.info("Navegamos a la pagina");

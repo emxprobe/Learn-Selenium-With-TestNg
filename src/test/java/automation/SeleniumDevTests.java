@@ -10,7 +10,7 @@ import utilities.Logs;
 
 public class SeleniumDevTests extends BaseTest {
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testScrollLine() {
 
         Logs.info("Navegamos a la pagina");
@@ -40,7 +40,7 @@ public class SeleniumDevTests extends BaseTest {
         );
     }
 
-    @Test(groups = regression)
+    @Test(groups = {regression})
     public void testScroll() {
 
         Logs.info("Navegamos a la pagina");
