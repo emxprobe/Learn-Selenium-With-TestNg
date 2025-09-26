@@ -25,4 +25,10 @@ public class LoginTests extends BaseTest {
         loginPage.fillLogin("locked_out_user", "secret_sauce");
         loginPage.verifyErrorMessage("Epic sadface: Sorry, this user has been locked out.");
     }
+
+    @Test
+    public void testverifyLoginPage() {
+
+        loginPage.verifyPage();
+    }
 }

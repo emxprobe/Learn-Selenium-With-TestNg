@@ -1,17 +1,23 @@
-19:51:20.235 INFO  AUTOMATION - Suite iniciada: Default Suite
-19:51:20.238 DEBUG AUTOMATION - Borrando la evidencia anterior
-19:51:20.300 DEBUG AUTOMATION - Inicializando el driver
-19:51:23.259 DEBUG AUTOMATION - Maximizando la pantalla
-19:51:23.310 DEBUG AUTOMATION - Borrando las cookies
-19:51:23.318 DEBUG AUTOMATION - Asignando driver al webdriver provider
-19:51:23.395 INFO  AUTOMATION - Navegando a la url
-19:51:26.533 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-19:51:26.588 INFO  AUTOMATION - Comenzando el test: testLockedUser
-19:51:26.617 INFO  AUTOMATION - Escribiendo el username
-19:51:26.754 INFO  AUTOMATION - Escribiendo el password
-19:51:26.821 INFO  AUTOMATION - Haciendo click en el boton de login
-19:51:26.910 INFO  AUTOMATION - Verificando el mensaje de error
-19:51:26.956 DEBUG AUTOMATION - Before test stop de allure
-19:51:26.965 INFO  AUTOMATION - Test exitoso: testLockedUser
-19:51:26.966 DEBUG AUTOMATION - Matando el driver
-19:51:27.171 INFO  AUTOMATION - Suite finalizada: Default Suite
+17:32:43.563 INFO  AUTOMATION - Suite iniciada: Default Suite
+17:32:43.566 DEBUG AUTOMATION - Borrando la evidencia anterior
+17:32:43.638 DEBUG AUTOMATION - Inicializando el driver
+17:32:45.614 DEBUG AUTOMATION - Maximizando la pantalla
+17:32:45.743 DEBUG AUTOMATION - Borrando las cookies
+17:32:45.765 DEBUG AUTOMATION - Asignando driver al webdriver provider
+17:32:45.979 INFO  AUTOMATION - Navegando a la url
+17:32:48.649 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+17:32:48.699 INFO  AUTOMATION - Escribiendo el username
+17:32:48.850 INFO  AUTOMATION - Escribiendo el password
+17:32:48.986 INFO  AUTOMATION - Haciendo click en el boton de login
+17:32:49.251 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+17:32:49.329 INFO  AUTOMATION - Abriendo el burguer menu
+17:32:49.503 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
+17:32:50.091 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+17:32:50.146 INFO  AUTOMATION - Comenzando el test: testLogoutTes
+17:32:50.190 INFO  AUTOMATION - Haciendo click en logout
+17:32:50.335 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+17:32:50.381 INFO  AUTOMATION - Verificando la pagina de login
+17:32:50.496 DEBUG AUTOMATION - Before test stop de allure
+17:32:50.511 INFO  AUTOMATION - Test exitoso: testLogoutTes
+17:32:50.514 DEBUG AUTOMATION - Matando el driver
+17:32:51.033 INFO  AUTOMATION - Suite finalizada: Default Suite
