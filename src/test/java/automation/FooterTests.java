@@ -2,15 +2,17 @@ package automation;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.Footer;
 import pages.LoginPage;
 import pages.ShoppingPage;
 import utilities.BaseTest;
 import utilities.Logs;
 
-public class ShoppingTests extends BaseTest {
+public class FooterTests extends BaseTest {
 
-    private final LoginPage loginPage = new LoginPage();
-    private final ShoppingPage shoppingPage = new ShoppingPage();
+    LoginPage loginPage = new LoginPage();
+    ShoppingPage shoppingPage = new ShoppingPage();
+    Footer footer = new Footer();
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
@@ -25,8 +27,11 @@ public class ShoppingTests extends BaseTest {
     }
 
     @Test
-    public void testVerifyShoppingPage() {
+    public void testVerifySocialMediaLinks() {
 
-        shoppingPage.verifyPage();
+        footer.verifySocialMediaLink(
+                "https://www.linkedin.com/company/sauce-labs/",
+                "https://www.facebook.com/saucelabs",
+                "https://twitter.com/saucelabs");
     }
 }

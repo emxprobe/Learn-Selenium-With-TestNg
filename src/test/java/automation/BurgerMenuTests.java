@@ -32,7 +32,7 @@ public class BurgerMenuTests extends BaseTest {
     }
 
     @Test
-    public void testLogoutTes() {
+    public void testLogoutTest() {
 
         burgerMenu.clickLogout();
         loginPage.waitPageToLoad();

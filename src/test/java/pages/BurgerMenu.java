@@ -2,6 +2,7 @@ package pages;
 
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utilities.BasePage;
@@ -44,5 +45,11 @@ public class BurgerMenu extends BasePage {
 
         Logs.info("Haciendo click en logout");
         find(logoutLink).click();
+    }
+
+    @Step("Verificando el link de about")
+    public void verifyAbout(String expectedUrl){
+
+        //final WebElement aboutLabel =
     }
 }

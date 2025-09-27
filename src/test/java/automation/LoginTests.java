@@ -27,7 +27,7 @@ public class LoginTests extends BaseTest {
     }
 
     @Test
-    public void testverifyLoginPage() {
+    public void testVerifyLoginPage() {
 
         loginPage.verifyPage();
     }

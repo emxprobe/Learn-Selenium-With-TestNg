@@ -1,23 +1,20 @@
-17:32:43.563 INFO  AUTOMATION - Suite iniciada: Default Suite
-17:32:43.566 DEBUG AUTOMATION - Borrando la evidencia anterior
-17:32:43.638 DEBUG AUTOMATION - Inicializando el driver
-17:32:45.614 DEBUG AUTOMATION - Maximizando la pantalla
-17:32:45.743 DEBUG AUTOMATION - Borrando las cookies
-17:32:45.765 DEBUG AUTOMATION - Asignando driver al webdriver provider
-17:32:45.979 INFO  AUTOMATION - Navegando a la url
-17:32:48.649 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-17:32:48.699 INFO  AUTOMATION - Escribiendo el username
-17:32:48.850 INFO  AUTOMATION - Escribiendo el password
-17:32:48.986 INFO  AUTOMATION - Haciendo click en el boton de login
-17:32:49.251 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-17:32:49.329 INFO  AUTOMATION - Abriendo el burguer menu
-17:32:49.503 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
-17:32:50.091 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
-17:32:50.146 INFO  AUTOMATION - Comenzando el test: testLogoutTes
-17:32:50.190 INFO  AUTOMATION - Haciendo click en logout
-17:32:50.335 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-17:32:50.381 INFO  AUTOMATION - Verificando la pagina de login
-17:32:50.496 DEBUG AUTOMATION - Before test stop de allure
-17:32:50.511 INFO  AUTOMATION - Test exitoso: testLogoutTes
-17:32:50.514 DEBUG AUTOMATION - Matando el driver
-17:32:51.033 INFO  AUTOMATION - Suite finalizada: Default Suite
+16:53:54.880 INFO  AUTOMATION - Suite iniciada: Default Suite
+16:53:54.883 DEBUG AUTOMATION - Borrando la evidencia anterior
+16:53:54.953 DEBUG AUTOMATION - Inicializando el driver
+16:53:56.360 DEBUG AUTOMATION - Maximizando la pantalla
+16:53:56.415 DEBUG AUTOMATION - Borrando las cookies
+16:53:56.429 DEBUG AUTOMATION - Asignando driver al webdriver provider
+16:53:56.534 INFO  AUTOMATION - Navegando a la url
+16:54:09.667 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:54:09.710 INFO  AUTOMATION - Escribiendo el username
+16:54:09.822 INFO  AUTOMATION - Escribiendo el password
+16:54:09.924 INFO  AUTOMATION - Haciendo click en el boton de login
+16:54:10.073 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+16:54:10.117 INFO  AUTOMATION - Comenzando el test: testVerifySocialMediaLinks
+16:54:10.186 INFO  AUTOMATION - Verificando que los links sean correctos
+16:54:10.348 DEBUG AUTOMATION - Before test stop de allure
+16:54:10.779 INFO  AUTOMATION - Test fallido: testVerifySocialMediaLinks
+16:54:10.779 DEBUG AUTOMATION - Tomando screenshot
+16:54:11.037 DEBUG AUTOMATION - Creando los directorios padres si es que no existen
+16:54:11.073 DEBUG AUTOMATION - Matando el driver
+16:54:11.444 INFO  AUTOMATION - Suite finalizada: Default Suite
