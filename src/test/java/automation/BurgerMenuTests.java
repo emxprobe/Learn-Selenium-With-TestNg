@@ -38,4 +38,10 @@ public class BurgerMenuTests extends BaseTest {
         loginPage.waitPageToLoad();
         loginPage.verifyPage();
     }
+
+    @Test
+    public void testVerifyAboutLink() {
+
+        burgerMenu.verifyAbout("https://saucelabs.com/");
+    }
 }

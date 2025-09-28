@@ -50,6 +50,13 @@ public class BurgerMenu extends BasePage {
     @Step("Verificando el link de about")
     public void verifyAbout(String expectedUrl){
 
-        //final WebElement aboutLabel =
+        final WebElement aboutLabel = find(aboutLink);
+
+        Logs.info("Verificando el link de about");
+
+        softAssert.assertTrue(aboutLabel.isDisplayed());
+        softAssert.assertTrue(aboutLabel.isEnabled());
+        softAssert.assertEquals(aboutLabel.getAttribute("href"), expectedUrl);
+        softAssert.assertAll();
     }
 }

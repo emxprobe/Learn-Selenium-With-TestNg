@@ -11,6 +11,8 @@ public class ShoppingPage extends BasePage {
     private final By itemSelect = By.cssSelector("select[data-test='product-sort-container']");
     private final By itemsList = By.className("inventory_list");
 
+
+
     @Override
     @Step("Esperando que cargue la pagina de Shopping")
     public void waitPageToLoad() {
@@ -27,5 +29,19 @@ public class ShoppingPage extends BasePage {
         softAssert.assertTrue(find(itemSelect).isDisplayed());
         softAssert.assertTrue(find(itemsList).isDisplayed());
         softAssert.assertAll();
+    }
+
+    private By getItemName(String itemName){
+
+        final var xpathFormat = String.format("//div[text()='$s']", itemName);
+
+        return By.xpath(xpathFormat);
+    }
+
+    @Step("Navegando al producto")
+    public void goToItemDetail(String itemName){
+
+        Logs.info("Navegando al producto");
+        find(getItemName(itemName)).click();
     }
 }

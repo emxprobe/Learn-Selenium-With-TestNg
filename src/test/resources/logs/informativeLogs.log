@@ -1,11 +1,14 @@
-16:53:54.880 INFO  AUTOMATION - Suite iniciada: Default Suite
-16:53:56.534 INFO  AUTOMATION - Navegando a la url
-16:54:09.667 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-16:54:09.710 INFO  AUTOMATION - Escribiendo el username
-16:54:09.822 INFO  AUTOMATION - Escribiendo el password
-16:54:09.924 INFO  AUTOMATION - Haciendo click en el boton de login
-16:54:10.073 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-16:54:10.117 INFO  AUTOMATION - Comenzando el test: testVerifySocialMediaLinks
-16:54:10.186 INFO  AUTOMATION - Verificando que los links sean correctos
-16:54:10.779 INFO  AUTOMATION - Test fallido: testVerifySocialMediaLinks
-16:54:11.444 INFO  AUTOMATION - Suite finalizada: Default Suite
+15:15:46.442 INFO  AUTOMATION - Suite iniciada: Default Suite
+15:15:47.892 INFO  AUTOMATION - Navegando a la url
+15:15:48.447 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+15:15:48.485 INFO  AUTOMATION - Escribiendo el username
+15:15:48.585 INFO  AUTOMATION - Escribiendo el password
+15:15:48.661 INFO  AUTOMATION - Haciendo click en el boton de login
+15:15:48.775 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+15:15:48.805 INFO  AUTOMATION - Abriendo el burguer menu
+15:15:48.879 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
+15:15:49.467 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+15:15:49.518 INFO  AUTOMATION - Comenzando el test: testVerifyAboutLink
+15:15:49.567 INFO  AUTOMATION - Verificando el link de about
+15:15:49.599 INFO  AUTOMATION - Test exitoso: testVerifyAboutLink
+15:15:49.789 INFO  AUTOMATION - Suite finalizada: Default Suite
