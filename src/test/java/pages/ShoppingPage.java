@@ -33,8 +33,7 @@ public class ShoppingPage extends BasePage {
 
     private By getItemName(String itemName){
 
-        final var xpathFormat = String.format("//div[text()='$s']", itemName);
-
+        final var xpathFormat = String.format("//div[text()='%s']", itemName);
         return By.xpath(xpathFormat);
     }
 

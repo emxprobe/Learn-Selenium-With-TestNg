@@ -7,11 +7,11 @@ import utilities.Logs;
 
 public class ItemDetailPage extends BasePage {
 
-    private final By itemDetailTitle = By.className("inventory_details_name ");
+    private final By itemDetailTitle = By.className("inventory_details_name");
     private final By bacToProductsButton = By.id("back-to-products");
     private final By itemDetailImage = By.className("inventory_details_img");
     private final By itemDetailPrice = By.className("inventory_details_price");
-    private final By itemDetailDescription = By.className("inventory_details_desc ");
+    private final By itemDetailDescription = By.className("inventory_details_desc");
     private final By addToCartButton = By.id("add-to-cart");
 
     @Override
@@ -35,5 +35,12 @@ public class ItemDetailPage extends BasePage {
         softAssert.assertTrue(find(itemDetailDescription).isDisplayed());
         softAssert.assertTrue(find(addToCartButton).isDisplayed());
         softAssert.assertAll();
+    }
+
+    @Step("Regresando a la pagina de products")
+    public void backToProducts(){
+
+        Logs.info("Regresando a la pagina de products");
+        find(bacToProductsButton).click();
     }
 }

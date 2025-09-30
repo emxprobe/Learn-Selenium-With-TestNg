@@ -1,14 +1,16 @@
-15:15:46.442 INFO  AUTOMATION - Suite iniciada: Default Suite
-15:15:47.892 INFO  AUTOMATION - Navegando a la url
-15:15:48.447 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-15:15:48.485 INFO  AUTOMATION - Escribiendo el username
-15:15:48.585 INFO  AUTOMATION - Escribiendo el password
-15:15:48.661 INFO  AUTOMATION - Haciendo click en el boton de login
-15:15:48.775 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-15:15:48.805 INFO  AUTOMATION - Abriendo el burguer menu
-15:15:48.879 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
-15:15:49.467 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
-15:15:49.518 INFO  AUTOMATION - Comenzando el test: testVerifyAboutLink
-15:15:49.567 INFO  AUTOMATION - Verificando el link de about
-15:15:49.599 INFO  AUTOMATION - Test exitoso: testVerifyAboutLink
-15:15:49.789 INFO  AUTOMATION - Suite finalizada: Default Suite
+21:50:08.951 INFO  AUTOMATION - Suite iniciada: Default Suite
+21:50:10.639 INFO  AUTOMATION - Navegando a la url
+21:50:13.791 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+21:50:13.823 INFO  AUTOMATION - Escribiendo el username
+21:50:13.923 INFO  AUTOMATION - Escribiendo el password
+21:50:14.004 INFO  AUTOMATION - Haciendo click en el boton de login
+21:50:14.107 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+21:50:14.137 INFO  AUTOMATION - Navegando al producto
+21:50:14.223 INFO  AUTOMATION - Esperando que cargue la pagina de Item Details
+21:50:14.223 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
+21:50:14.252 INFO  AUTOMATION - Comenzando el test: testBackToProductsNavigation
+21:50:14.280 INFO  AUTOMATION - Regresando a la pagina de products
+21:50:14.353 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+21:50:14.376 INFO  AUTOMATION - Verificando la pagina
+21:50:14.441 INFO  AUTOMATION - Test exitoso: testBackToProductsNavigation
+21:50:14.651 INFO  AUTOMATION - Suite finalizada: Default Suite

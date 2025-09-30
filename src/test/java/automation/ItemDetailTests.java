@@ -34,4 +34,13 @@ public class ItemDetailTests extends BaseTest {
 
         itemDetailPage.verifyPage();
     }
+
+    @Test
+    public void testBackToProductsNavigation() {
+
+        itemDetailPage.backToProducts();
+
+        shoppingPage.waitPageToLoad();
+        shoppingPage.verifyPage();
+    }
 }
