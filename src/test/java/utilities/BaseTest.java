@@ -18,15 +18,12 @@ import java.time.Duration;
 @Listeners({TestListeners.class, SuiteListeners.class})
 public class BaseTest {
 
-    protected SoftAssert softAssert;
     protected final String regression = "regression";
     protected final String smoke = "smoke";
     protected WebDriver driver;
-    protected WebDriverWait wait;
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetup() {
-        softAssert = new SoftAssert();
 
         Logs.debug("Inicializando el driver");
         driver = new EdgeDriver();
@@ -48,16 +45,5 @@ public class BaseTest {
 
         Logs.debug("Matando el driver");
         driver.quit();
-    }
-
-    protected void sleep(int timeMs) {
-
-        try {
-
-            Thread.sleep(timeMs);
-        } catch (InterruptedException interruptedException) {
-
-            Logs.error("Interrupted exception: %s", interruptedException.getLocalizedMessage());
-        }
     }
 }

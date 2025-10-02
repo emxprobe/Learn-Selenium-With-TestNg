@@ -1,16 +1,16 @@
-21:50:08.951 INFO  AUTOMATION - Suite iniciada: Default Suite
-21:50:10.639 INFO  AUTOMATION - Navegando a la url
-21:50:13.791 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-21:50:13.823 INFO  AUTOMATION - Escribiendo el username
-21:50:13.923 INFO  AUTOMATION - Escribiendo el password
-21:50:14.004 INFO  AUTOMATION - Haciendo click en el boton de login
-21:50:14.107 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-21:50:14.137 INFO  AUTOMATION - Navegando al producto
-21:50:14.223 INFO  AUTOMATION - Esperando que cargue la pagina de Item Details
-21:50:14.223 INFO  AUTOMATION - Esperando que la pagina ItemDetailPage cargue
-21:50:14.252 INFO  AUTOMATION - Comenzando el test: testBackToProductsNavigation
-21:50:14.280 INFO  AUTOMATION - Regresando a la pagina de products
-21:50:14.353 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-21:50:14.376 INFO  AUTOMATION - Verificando la pagina
-21:50:14.441 INFO  AUTOMATION - Test exitoso: testBackToProductsNavigation
-21:50:14.651 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:10:25.160 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:10:28.668 INFO  AUTOMATION - Navegando a la url
+20:10:31.649 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:10:31.685 INFO  AUTOMATION - Escribiendo el username
+20:10:31.787 INFO  AUTOMATION - Escribiendo el password
+20:10:31.859 INFO  AUTOMATION - Haciendo click en el boton de login
+20:10:31.966 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:10:31.991 INFO  AUTOMATION - Abriendo el burguer menu
+20:10:32.061 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
+20:10:32.621 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+20:10:32.659 INFO  AUTOMATION - Comenzando el test: testLogoutTest
+20:10:32.679 INFO  AUTOMATION - Haciendo click en logout
+20:10:32.745 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:10:32.765 INFO  AUTOMATION - Verificando la pagina de login
+20:10:32.837 INFO  AUTOMATION - Test exitoso: testLogoutTest
+20:10:33.078 INFO  AUTOMATION - Suite finalizada: Default Suite
