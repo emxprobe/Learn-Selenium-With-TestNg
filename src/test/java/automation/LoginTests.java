@@ -1,5 +1,6 @@
 package automation;
 
+import data.DataGiver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
@@ -13,17 +14,20 @@ public class LoginTests extends BaseTest {
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
 
-        Logs.info("Navegando a la url");
-        driver.get("https://www.saucedemo.com/");
-
-        loginPage.waitPageToLoad();
+        commonFlows.goToLoginPage();
     }
 
     @Test
     public void testLockedUser() {
 
-        loginPage.fillLogin("locked_out_user", "secret_sauce");
-        loginPage.verifyErrorMessage("Epic sadface: Sorry, this user has been locked out.");
+        final var lockedCredentials = DataGiver.getLockedCredentials();
+
+        loginPage.fillLogin(
+                lockedCredentials.getUsername(),
+                lockedCredentials.getPassword());
+
+        loginPage.verifyErrorMessage(
+                lockedCredentials.getMessage());
     }
 
     @Test

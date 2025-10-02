@@ -10,20 +10,12 @@ import utilities.Logs;
 
 public class FooterTests extends BaseTest {
 
-    LoginPage loginPage = new LoginPage();
-    ShoppingPage shoppingPage = new ShoppingPage();
     Footer footer = new Footer();
 
     @BeforeMethod(alwaysRun = true)
     public void setUp() {
 
-        Logs.info("Navegando a la url");
-        driver.get("https://www.saucedemo.com/");
-
-        loginPage.waitPageToLoad();
-
-        loginPage.fillLogin("standard_user", "secret_sauce");
-        shoppingPage.waitPageToLoad();
+        commonFlows.goToShoppingPage();
     }
 
     @Test

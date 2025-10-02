@@ -1,16 +1,10 @@
-20:10:25.160 INFO  AUTOMATION - Suite iniciada: Default Suite
-20:10:28.668 INFO  AUTOMATION - Navegando a la url
-20:10:31.649 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-20:10:31.685 INFO  AUTOMATION - Escribiendo el username
-20:10:31.787 INFO  AUTOMATION - Escribiendo el password
-20:10:31.859 INFO  AUTOMATION - Haciendo click en el boton de login
-20:10:31.966 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-20:10:31.991 INFO  AUTOMATION - Abriendo el burguer menu
-20:10:32.061 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
-20:10:32.621 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
-20:10:32.659 INFO  AUTOMATION - Comenzando el test: testLogoutTest
-20:10:32.679 INFO  AUTOMATION - Haciendo click en logout
-20:10:32.745 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-20:10:32.765 INFO  AUTOMATION - Verificando la pagina de login
-20:10:32.837 INFO  AUTOMATION - Test exitoso: testLogoutTest
-20:10:33.078 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:49:25.336 INFO  AUTOMATION - Suite iniciada: Default Suite
+20:49:26.857 INFO  AUTOMATION - Navegando a la url
+20:49:29.993 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:49:30.030 INFO  AUTOMATION - Comenzando el test: testLockedUser
+20:49:30.272 INFO  AUTOMATION - Escribiendo el username
+20:49:30.407 INFO  AUTOMATION - Escribiendo el password
+20:49:30.481 INFO  AUTOMATION - Haciendo click en el boton de login
+20:49:30.569 INFO  AUTOMATION - Verificando el mensaje de error
+20:49:30.611 INFO  AUTOMATION - Test exitoso: testLockedUser
+20:49:30.800 INFO  AUTOMATION - Suite finalizada: Default Suite

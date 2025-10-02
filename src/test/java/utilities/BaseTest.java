@@ -21,6 +21,7 @@ public class BaseTest {
     protected final String regression = "regression";
     protected final String smoke = "smoke";
     protected WebDriver driver;
+    protected final CommonFlows commonFlows = new CommonFlows();
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetup() {
