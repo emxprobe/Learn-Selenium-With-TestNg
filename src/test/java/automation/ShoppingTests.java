@@ -1,5 +1,7 @@
 package automation;
 
+import com.poiji.annotation.ExcelCellName;
+import data.ExcelReader;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import pages.LoginPage;
@@ -21,5 +23,14 @@ public class ShoppingTests extends BaseTest {
     public void testVerifyShoppingPage() {
 
         shoppingPage.verifyPage();
+    }
+
+    @Test
+    public void testVerifyListProduct() {
+
+        final var itemList = ExcelReader.readListItemProductExcel();
+
+        shoppingPage.verifyProductPrice(itemList);
+
     }
 }

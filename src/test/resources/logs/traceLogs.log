@@ -1,31 +1,55 @@
-18:08:10.514 INFO  AUTOMATION - Suite iniciada: Default Suite
-18:08:10.516 DEBUG AUTOMATION - Borrando la evidencia anterior
-18:08:10.748 DEBUG AUTOMATION - Inicializando el driver
-18:08:12.071 DEBUG AUTOMATION - Maximizando la pantalla
-18:08:12.117 DEBUG AUTOMATION - Borrando las cookies
-18:08:12.127 DEBUG AUTOMATION - Asignando driver al webdriver provider
-18:08:12.220 INFO  AUTOMATION - Navegando a la url
-18:08:15.334 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-18:08:15.378 INFO  AUTOMATION - Comenzando el test: testInvalidAndUnexistentCredentials
-18:08:15.413 INFO  AUTOMATION - Escribiendo el username
-18:08:15.562 INFO  AUTOMATION - Escribiendo el password
-18:08:15.627 INFO  AUTOMATION - Haciendo click en el boton de login
-18:08:15.719 INFO  AUTOMATION - Verificando el mensaje de error
-18:08:15.754 DEBUG AUTOMATION - Before test stop de allure
-18:08:15.768 INFO  AUTOMATION - Test exitoso: testInvalidAndUnexistentCredentials
-18:08:15.770 DEBUG AUTOMATION - Matando el driver
-18:08:15.972 DEBUG AUTOMATION - Inicializando el driver
-18:08:16.814 DEBUG AUTOMATION - Maximizando la pantalla
-18:08:16.892 DEBUG AUTOMATION - Borrando las cookies
-18:08:16.903 DEBUG AUTOMATION - Asignando driver al webdriver provider
-18:08:16.905 INFO  AUTOMATION - Navegando a la url
-18:08:19.511 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-18:08:19.540 INFO  AUTOMATION - Comenzando el test: testInvalidAndUnexistentCredentials
-18:08:19.542 INFO  AUTOMATION - Escribiendo el username
-18:08:19.639 INFO  AUTOMATION - Escribiendo el password
-18:08:19.716 INFO  AUTOMATION - Haciendo click en el boton de login
-18:08:19.799 INFO  AUTOMATION - Verificando el mensaje de error
-18:08:19.828 DEBUG AUTOMATION - Before test stop de allure
-18:08:19.829 INFO  AUTOMATION - Test exitoso: testInvalidAndUnexistentCredentials
-18:08:19.832 DEBUG AUTOMATION - Matando el driver
-18:08:20.008 INFO  AUTOMATION - Suite finalizada: Default Suite
+18:36:10.250 INFO  AUTOMATION - Suite iniciada: Default Suite
+18:36:10.253 DEBUG AUTOMATION - Borrando la evidencia anterior
+18:36:10.333 DEBUG AUTOMATION - Inicializando el driver
+18:36:11.601 DEBUG AUTOMATION - Maximizando la pantalla
+18:36:11.658 DEBUG AUTOMATION - Borrando las cookies
+18:36:11.669 DEBUG AUTOMATION - Asignando driver al webdriver provider
+18:36:11.937 INFO  AUTOMATION - Navegando a la url
+18:36:14.996 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:36:15.030 INFO  AUTOMATION - Escribiendo el username
+18:36:15.122 INFO  AUTOMATION - Escribiendo el password
+18:36:15.195 INFO  AUTOMATION - Haciendo click en el boton de login
+18:36:15.294 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+18:36:15.328 INFO  AUTOMATION - Comenzando el test: testVerifyListProduct
+18:36:15.531 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:36:15.534 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:36:15.591 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:36:15.631 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:36:15.635 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:36:15.635 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:36:15.636 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:36:15.636 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:36:15.638 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:36:15.646 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLTOOLS
+18:36:15.648 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:36:15.652 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLSCHEMA
+18:36:15.652 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:36:15.653 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLLANG
+18:36:15.655 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:36:15.655 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.xmlbeans.metadata.system.sXMLCONFIG
+18:36:15.656 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Reading unresolved handles for type system org.apache.poi.schemas.ooxml.system.ooxml
+18:36:15.702 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Finished loading type system org.apache.poi.schemas.ooxml.system.ooxml
+18:36:15.703 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stylesheet5d8bdoctype
+18:36:15.735 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctstylesheet4257type
+18:36:15.739 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfonts6623type
+18:36:15.741 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfont14d8type
+18:36:15.745 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfills2c6ftype
+18:36:15.747 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctfill550ctype
+18:36:15.748 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborders0d66type
+18:36:15.750 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctborderf935type
+18:36:15.752 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellxfs1322type
+18:36:15.754 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctxf97f7type
+18:36:15.755 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctcellstylexfsa81ftype
+18:36:15.756 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctdxfsb26atype
+18:36:15.757 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle cttablestyles872ftype
+18:36:15.759 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle themefd26doctype
+18:36:15.783 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle ctrsta472type
+18:36:15.785 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stxstringf179type
+18:36:15.794 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stcellstylexfid70c7type
+18:36:15.801 TRACE org.apache.xmlbeans.impl.common.XBeanDebug - Resolving type for handle stnumfmtid76fbtype
+18:36:15.819 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+18:36:15.819 INFO  AUTOMATION - Verificando el precio de los productos
+18:36:15.969 DEBUG AUTOMATION - Before test stop de allure
+18:36:15.976 INFO  AUTOMATION - Test exitoso: testVerifyListProduct
+18:36:15.978 DEBUG AUTOMATION - Matando el driver
+18:36:16.228 INFO  AUTOMATION - Suite finalizada: Default Suite

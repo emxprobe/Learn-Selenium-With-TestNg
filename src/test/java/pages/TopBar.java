@@ -31,4 +31,11 @@ public class TopBar extends BasePage {
         Logs.info("Abriendo el burguer menu");
         find(burgerMenuButton).click();
     }
+
+    @Step("Haciendo click en el boton de shopping cart")
+    public void clickShoppingCart(){
+
+        Logs.info("Haciendo click en el boton de shopping cart");
+        find(shoppingCartLink).click();
+    }
 }
