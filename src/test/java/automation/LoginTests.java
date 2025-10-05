@@ -1,5 +1,6 @@
 package automation;
 
+import data.CustomDataProvider;
 import data.DataGiver;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -34,5 +35,28 @@ public class LoginTests extends BaseTest {
     public void testVerifyLoginPage() {
 
         loginPage.verifyPage();
+    }
+
+    @Test
+    public void testVerifyUnexistentMessage() {
+
+        final var unexistentCredentials = DataGiver.getUnexistenCredentials();
+
+        loginPage.fillLogin(
+                unexistentCredentials.getUsername(),
+                unexistentCredentials.getPassword());
+
+        loginPage.verifyErrorMessage(
+                unexistentCredentials.getMessage());
+    }
+
+    @Test(
+            groups = {regression},
+            dataProviderClass = CustomDataProvider.class,
+            dataProvider = CustomDataProvider.DP_CREDENTIALS)
+    public void testInvalidAndUnexistentCredentials(String username, String password, String message) {
+
+        loginPage.fillLogin(username, password);
+        loginPage.verifyErrorMessage(message);
     }
 }

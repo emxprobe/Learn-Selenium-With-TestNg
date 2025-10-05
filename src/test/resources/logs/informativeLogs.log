@@ -1,10 +1,18 @@
-20:49:25.336 INFO  AUTOMATION - Suite iniciada: Default Suite
-20:49:26.857 INFO  AUTOMATION - Navegando a la url
-20:49:29.993 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-20:49:30.030 INFO  AUTOMATION - Comenzando el test: testLockedUser
-20:49:30.272 INFO  AUTOMATION - Escribiendo el username
-20:49:30.407 INFO  AUTOMATION - Escribiendo el password
-20:49:30.481 INFO  AUTOMATION - Haciendo click en el boton de login
-20:49:30.569 INFO  AUTOMATION - Verificando el mensaje de error
-20:49:30.611 INFO  AUTOMATION - Test exitoso: testLockedUser
-20:49:30.800 INFO  AUTOMATION - Suite finalizada: Default Suite
+18:08:10.514 INFO  AUTOMATION - Suite iniciada: Default Suite
+18:08:12.220 INFO  AUTOMATION - Navegando a la url
+18:08:15.334 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:08:15.378 INFO  AUTOMATION - Comenzando el test: testInvalidAndUnexistentCredentials
+18:08:15.413 INFO  AUTOMATION - Escribiendo el username
+18:08:15.562 INFO  AUTOMATION - Escribiendo el password
+18:08:15.627 INFO  AUTOMATION - Haciendo click en el boton de login
+18:08:15.719 INFO  AUTOMATION - Verificando el mensaje de error
+18:08:15.768 INFO  AUTOMATION - Test exitoso: testInvalidAndUnexistentCredentials
+18:08:16.905 INFO  AUTOMATION - Navegando a la url
+18:08:19.511 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+18:08:19.540 INFO  AUTOMATION - Comenzando el test: testInvalidAndUnexistentCredentials
+18:08:19.542 INFO  AUTOMATION - Escribiendo el username
+18:08:19.639 INFO  AUTOMATION - Escribiendo el password
+18:08:19.716 INFO  AUTOMATION - Haciendo click en el boton de login
+18:08:19.799 INFO  AUTOMATION - Verificando el mensaje de error
+18:08:19.829 INFO  AUTOMATION - Test exitoso: testInvalidAndUnexistentCredentials
+18:08:20.008 INFO  AUTOMATION - Suite finalizada: Default Suite

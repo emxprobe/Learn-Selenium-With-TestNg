@@ -1,5 +1,6 @@
 package utilities;
 
+import data.DataGiver;
 import org.openqa.selenium.WebDriver;
 import pages.BurgerMenu;
 import pages.ItemDetailPage;
@@ -24,9 +25,14 @@ public class CommonFlows {
 
     public void goToShoppingPage() {
 
+        final var validCredential = DataGiver.getValidCredentials();
+
         goToLoginPage();
 
-        new LoginPage().fillLogin("standard_user", "secret_sauce");
+        new LoginPage().fillLogin(
+                validCredential.getUsername(),
+                validCredential.getPassword());
+
         new ShoppingPage().waitPageToLoad();
     }
 

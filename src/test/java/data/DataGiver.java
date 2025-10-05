@@ -20,4 +20,9 @@ public class DataGiver {
 
         return getMapCredentials().get("locked");
     }
+
+    public static Credentials getUnexistenCredentials(){
+
+        return getMapCredentials().get("unexistent");
+    }
 }
