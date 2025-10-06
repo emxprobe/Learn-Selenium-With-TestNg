@@ -1,50 +1,11 @@
-19:09:59.314 INFO  AUTOMATION - Suite iniciada: Default Suite
-19:10:01.742 INFO  AUTOMATION - Navegando a la url
-19:10:04.668 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-19:10:04.703 INFO  AUTOMATION - Escribiendo el username
-19:10:04.798 INFO  AUTOMATION - Escribiendo el password
-19:10:04.862 INFO  AUTOMATION - Haciendo click en el boton de login
-19:10:04.962 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-19:10:04.996 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
-19:10:05.074 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
-19:10:05.098 INFO  AUTOMATION - Haciendo click en el boton de checkout
-19:10:05.150 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
-19:10:05.176 INFO  AUTOMATION - Comenzando el test: testVerifyErrorMessage
-19:10:05.202 INFO  AUTOMATION - Escribiendo el lastname
-19:10:05.260 INFO  AUTOMATION - Escribiendo el zipcode
-19:10:05.317 INFO  AUTOMATION - Haciendo click en continue
-19:10:05.376 INFO  AUTOMATION - Verificando el mensaje de error
-19:10:05.424 INFO  AUTOMATION - Test exitoso: testVerifyErrorMessage
-19:10:06.529 INFO  AUTOMATION - Navegando a la url
-19:10:09.021 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-19:10:09.050 INFO  AUTOMATION - Escribiendo el username
-19:10:09.142 INFO  AUTOMATION - Escribiendo el password
-19:10:09.210 INFO  AUTOMATION - Haciendo click en el boton de login
-19:10:09.313 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-19:10:09.342 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
-19:10:09.426 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
-19:10:09.453 INFO  AUTOMATION - Haciendo click en el boton de checkout
-19:10:09.511 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
-19:10:09.533 INFO  AUTOMATION - Comenzando el test: testVerifyErrorMessage
-19:10:09.535 INFO  AUTOMATION - Escribiendo el firstname
-19:10:09.585 INFO  AUTOMATION - Escribiendo el zipcode
-19:10:09.639 INFO  AUTOMATION - Haciendo click en continue
-19:10:09.694 INFO  AUTOMATION - Verificando el mensaje de error
-19:10:09.729 INFO  AUTOMATION - Test exitoso: testVerifyErrorMessage
-19:10:10.868 INFO  AUTOMATION - Navegando a la url
-19:10:14.059 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-19:10:14.085 INFO  AUTOMATION - Escribiendo el username
-19:10:14.177 INFO  AUTOMATION - Escribiendo el password
-19:10:14.245 INFO  AUTOMATION - Haciendo click en el boton de login
-19:10:14.340 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-19:10:14.366 INFO  AUTOMATION - Haciendo click en el boton de shopping cart
-19:10:14.446 INFO  AUTOMATION - Esperando que la pagina YourCartPage cargue
-19:10:14.472 INFO  AUTOMATION - Haciendo click en el boton de checkout
-19:10:14.530 INFO  AUTOMATION - Esperando que la pagina YourInformationPage cargue
-19:10:14.554 INFO  AUTOMATION - Comenzando el test: testVerifyErrorMessage
-19:10:14.557 INFO  AUTOMATION - Escribiendo el firstname
-19:10:14.611 INFO  AUTOMATION - Escribiendo el lastname
-19:10:14.664 INFO  AUTOMATION - Haciendo click en continue
-19:10:14.725 INFO  AUTOMATION - Verificando el mensaje de error
-19:10:14.766 INFO  AUTOMATION - Test exitoso: testVerifyErrorMessage
-19:10:14.941 INFO  AUTOMATION - Suite finalizada: Default Suite
+09:23:39.998 INFO  AUTOMATION - Suite iniciada: Default Suite
+09:23:45.432 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+09:23:45.709 INFO  AUTOMATION - Abriendo el burguer menu
+09:23:45.779 INFO  AUTOMATION - Esperando que la pagina BurgerMenu cargue
+09:23:46.388 INFO  AUTOMATION - Esperando que sea clickeable por la animacion
+09:23:46.435 INFO  AUTOMATION - Comenzando el test: testLogoutTest
+09:23:46.458 INFO  AUTOMATION - Haciendo click en logout
+09:23:46.543 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+09:23:46.567 INFO  AUTOMATION - Verificando la pagina de login
+09:23:46.632 INFO  AUTOMATION - Test exitoso: testLogoutTest
+09:23:46.839 INFO  AUTOMATION - Suite finalizada: Default Suite

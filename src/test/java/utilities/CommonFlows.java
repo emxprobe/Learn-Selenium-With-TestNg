@@ -1,6 +1,7 @@
 package utilities;
 
 import data.DataGiver;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;
 import pages.BurgerMenu;
 import pages.ItemDetailPage;
@@ -25,15 +26,21 @@ public class CommonFlows {
         new LoginPage().waitPageToLoad();
     }
 
+    private void assignLoginCookie(){
+
+        Logs.debug("Asignando la cookie de login");
+        getDriver().get("https://www.saucedemo.com/404");
+
+        final var validCredentials = DataGiver.getValidCredentials();
+        final var loginCookie =
+                new Cookie("session-username", validCredentials.getUsername());
+        getDriver().manage().addCookie(loginCookie);
+    }
+
     public void goToShoppingPage() {
 
-        final var validCredential = DataGiver.getValidCredentials();
-
-        goToLoginPage();
-
-        new LoginPage().fillLogin(
-                validCredential.getUsername(),
-                validCredential.getPassword());
+        assignLoginCookie();
+        getDriver().get("https://www.saucedemo.com/inventory.html");
 
         new ShoppingPage().waitPageToLoad();
     }

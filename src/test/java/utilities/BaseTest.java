@@ -20,31 +20,18 @@ public class BaseTest {
 
     protected final String regression = "regression";
     protected final String smoke = "smoke";
-    protected WebDriver driver;
     protected final CommonFlows commonFlows = new CommonFlows();
+    private final DriverManager driverManager = new DriverManager();
 
     @BeforeMethod(alwaysRun = true)
     public void masterSetup() {
 
-        Logs.debug("Inicializando el driver");
-        driver = new EdgeDriver();
-
-        Logs.debug("Maximizando la pantalla");
-        driver.manage().window().maximize();
-
-        Logs.debug("Borrando las cookies");
-        driver.manage().deleteAllCookies();
-
-
-
-        Logs.debug("Asignando driver al webdriver provider");
-        new WebdriverProvider().set(driver);
+       driverManager.buildDriver();
     }
 
     @AfterMethod(alwaysRun = true)
     public void masterTeardown() {
 
-        Logs.debug("Matando el driver");
-        driver.quit();
+        driverManager.killDriver();
     }
 }
