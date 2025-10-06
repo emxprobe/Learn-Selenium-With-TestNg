@@ -8,7 +8,7 @@ import utilities.Logs;
 public class TopBar extends BasePage {
 
     private final By logo = By.xpath("//div[text()='Swag Labs']");
-    private final By shoppingCartLink = By.className(".shopping_cart_link");
+    private final By shoppingCartLink = By.className("shopping_cart_link");
     private final By burgerMenuButton = By.id("react-burger-menu-btn");
 
     @Override

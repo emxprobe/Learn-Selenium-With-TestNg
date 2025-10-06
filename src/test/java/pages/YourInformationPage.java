@@ -12,6 +12,7 @@ public class YourInformationPage extends BasePage {
     private final By lastnameInput = By.id("last-name");
     private final By postalCodeInput = By.id("postal-code");
     private final By continueButton = By.id("continue");
+    private final By errorLabel = By.cssSelector("h3[data-test='error']");
 
     @Override
     @Step("Esperando que cargue la pagina de Your Information")
@@ -33,5 +34,39 @@ public class YourInformationPage extends BasePage {
         softAssert.assertAll();
     }
 
+    @Step("Rellenando el formulario")
+    public void fillData(String firstname, String lastname, String zipcode){
 
+        if (!firstname.isEmpty()){
+
+            Logs.info("Escribiendo el firstname");
+            find(firstnameInput).sendKeys(firstname);
+        }
+
+        if (!lastname.isEmpty()){
+
+            Logs.info("Escribiendo el lastname");
+            find(lastnameInput).sendKeys(lastname);
+        }
+
+        if (!zipcode.isEmpty()){
+
+            Logs.info("Escribiendo el zipcode");
+            find(postalCodeInput).sendKeys(zipcode);
+        }
+
+        Logs.info("Haciendo click en continue");
+        find(continueButton).click();
+    }
+
+    @Step("Verificando el mensaje de error")
+    public void verifyErrorMessage(String errorMessage){
+
+        Logs.info("Verificando el mensaje de error");
+        final var errorLabelElement = find(errorLabel);
+
+        softAssert.assertTrue(errorLabelElement.isDisplayed());
+        softAssert.assertEquals(errorLabelElement.getText(), errorMessage);
+        softAssert.assertAll();
+    }
 }

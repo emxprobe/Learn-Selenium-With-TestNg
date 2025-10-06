@@ -7,6 +7,8 @@ import pages.ItemDetailPage;
 import pages.LoginPage;
 import pages.ShoppingPage;
 import pages.TopBar;
+import pages.YourCartPage;
+import pages.YourInformationPage;
 
 public class CommonFlows {
 
@@ -50,5 +52,20 @@ public class CommonFlows {
 
         new ShoppingPage().goToItemDetail(itemName);
         new ItemDetailPage().waitPageToLoad();
+    }
+
+    public void goToYourCartPage(){
+
+        goToShoppingPage();
+        new TopBar().clickShoppingCart();
+        new YourCartPage().waitPageToLoad();
+    }
+
+    public void goToYourInformationPage(){
+
+        goToYourCartPage();
+        new YourCartPage().clickOnCheckout();
+        new YourInformationPage().waitPageToLoad();
+
     }
 }
